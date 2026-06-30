@@ -1,9 +1,6 @@
 {
   "name": "Django Student Environment",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "features": {
-    "ghcr.io/devcontainers/features/sqlite:1": {}
-  },
   "customizations": {
     "vscode": {
       "settings": {
