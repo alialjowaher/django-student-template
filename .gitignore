@@ -1,0 +1,40 @@
+# =========================
+# Django
+# =========================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments & Secrets
+.env
+.venv
+env/
+venv/
+ENV/
+
+# =========================
+# VS Code / Codespaces
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
