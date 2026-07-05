@@ -1,9 +1,10 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-
+from .models import Course, Major
 
 def home(request):
-    return HttpResponse("<h1>hello to my sample app</h1>")    
+    courses_qs = Course.objects.all()
+    return HttpResponse(f"List of courses: {',<br> '.join(course.name for course in courses_qs)}")    
 
 
 
